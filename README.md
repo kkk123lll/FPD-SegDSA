@@ -59,8 +59,14 @@ python train.py
 This command trains the proposed spatiotemporal vessel segmentation model on the prepared dataset.
 
 ### Test
-👉 Replace `checkpoints/best_model.pth` with the path to the provided pretrained checkpoint.
+** 👉 Pretrained Checkpoint**
 
+Due to the large file size, the pretrained model checkpoint is provided via Google Drive:
+
+- **Checkpoint**: [Download from Google Drive](https://drive.google.com/drive/folders/1hFghqzO3E4eeEjH8v-giJsi9qwZjgrdi?dmr=1&ec=wgc-drive-hero-goto)
+
+After downloading, please place the checkpoint file at:  `checkpoints/best_model.pth` 
+Then run:
 ```bash
 python test.py --checkpoint checkpoints/best_model.pth
 ```

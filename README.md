@@ -46,8 +46,23 @@ Extensive experiments on the **[DIAS](https://zenodo.org/records/11637181)** and
 More detailed instructions for data preparation, training, and evaluation are provided below.
 ### Data Preparation
 
+```bash
+python data_pre/CVSS_process_lkk.py
+```
+This script preprocesses the raw DSA data and generates the required inputs for training and evaluation.
+
 ### Train
 
-### Test
+```bash
+python train.py
+```
+This command trains the proposed spatiotemporal vessel segmentation model on the prepared dataset.
 
+### Test
+👉 Replace `checkpoints/best_model.pth` with the path to the provided pretrained checkpoint.
+
+```bash
+python test.py --checkpoint checkpoints/best_model.pth
+```
+This script performs inference on the test set and reports quantitative segmentation results.
 

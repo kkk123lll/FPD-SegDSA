@@ -16,7 +16,7 @@ To address these challenges, we propose a **spatiotemporal DSA vessel segmentati
 ## ✨ Key Contributions
 
 - **Framework**
-  (figures/framework.pdf)
+ ![Network Framework] (figures/framework.pdf)
 
 - **Mamba-based Temporal Encoder**  
   We adopt a Mamba-based state space model to capture blood flow dynamics and long-range temporal dependencies in DSA sequences with **linear computational complexity**, enabling efficient and scalable temporal modeling.
@@ -36,7 +36,7 @@ To address these challenges, we propose a **spatiotemporal DSA vessel segmentati
 
 Extensive experiments on the **[DIAS](https://zenodo.org/records/11637181)** and **[DSCA](https://zenodo.org/records/11255024)** datasets demonstrate that our method consistently outperforms state-of-the-art approaches, particularly in:
 
-![Results on DIAS dataset and DSCA dataset](figures/vis_results.pdf)
+![Results on DIAS dataset and DSCA dataset](figures/vis.pdf)
 - preserving vessel connectivity,
 - accurately segmenting thin and distal vessel branches,
 - and reducing background-induced false positives.

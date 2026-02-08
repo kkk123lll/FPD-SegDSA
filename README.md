@@ -44,10 +44,10 @@ Extensive experiments on the **[DIAS](https://zenodo.org/records/11637181)** and
 ## 📁 Instructions
 
 More detailed instructions for data preparation, training, and evaluation are provided below.
+### Data Preparation
 
 ### Train
 
 ### Test
 
-# Acknowledgement
 

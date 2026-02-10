@@ -4,9 +4,7 @@ This repository contains the official implementation of our paper:
 
 **“Temporal Phase-Difference Guided Spatiotemporal Learning for DSA Vessel Segmentation”**
 
-<span style="color:red"><strong>
-After the paper is accepted, the relevant code will be released …
-</strong></span>
+**After the paper is accepted, the relevant code will be released ……**
 
 ## 🔍 Overview
 

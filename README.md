@@ -26,7 +26,7 @@ Experiment outputs such as checkpoints, TensorBoard runs, debug batches, caches,
 
 ## Data Format
 
-This repository does not include the dataset. Configure your local paths in `fpd_seg/config/config.py` or override them from the command line.
+This repository does not include the dataset and you can get datasets on **[DIAS](https://zenodo.org/records/11637181)** and **[DSCA](https://zenodo.org/records/11255024)**. Configure your local paths in `fpd_seg/config/config.py` or override them from the command line.
 
 Expected directory structure:
 

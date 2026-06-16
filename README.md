@@ -80,13 +80,16 @@ python train.py --opts \
 
 ## Testing
 
-Download the pretrained checkpoint from the release link below, then place it at:
+Due to the large file size, the pretrained model checkpoint is provided via Google Drive. Download the pretrained checkpoint from the release link below, then place it at:
 
 ```text
 checkpoints/New_Mamba_Net_FPD_SegDSA/best_model.pth
 ```
 
-Checkpoint link: **TODO: add pretrained checkpoint URL here**
+Checkpoint link: 
+
+- **Checkpoint**: [Download from Google Drive](https://drive.google.com/drive/folders/1hFghqzO3E4eeEjH8v-giJsi9qwZjgrdi?dmr=1&ec=wgc-drive-hero-goto)
+
 
 Checkpoint files are ignored by Git because the released weight is larger than GitHub's normal file-size limit.
 

@@ -116,7 +116,7 @@ class Tester(Trainer):
             cv2.imwrite(self.save_path + f"/pre_b{j}.png", np.uint8(predict_b*255))
             cv2.imwrite(self.save_path + f"/color_b{j}.png", get_color(predict_b, gt))
 
-            metrics = get_metrics(predict_b, gt, run_clDice=True)
+            metrics = get_metrics(predict, gt, run_clDice=True)
             self._update_metrics(*metrics.values())
 
             dsc_value = metrics["DSC"]

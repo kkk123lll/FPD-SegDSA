@@ -1,3 +1,11 @@
+# Temporal Phase-Difference Guided Spatiotemporal Learning for DSA Vessel Segmentation
+
+This repository contains the official implementation of our paper:
+
+**“Temporal Phase-Difference Guided Spatiotemporal Learning for DSA Vessel Segmentation”**
+
+**🎉 The paper associated with this project has been provisionally accepted by [MICCAI 2026](https://conferences.miccai.org/2026/en/default.asp) after the rebuttal process. We are grateful for the reviewers' constructive feedback and are currently preparing the camera-ready version.**
+
 # FPD-SegDSA
 
 PyTorch implementation for DSA sequence vessel segmentation. The current public version focuses on fully supervised segmentation with the `New_Mamba_Net` architecture.
@@ -101,18 +109,26 @@ python test.py \
   DATASET.TEST_LABEL_PATH /path/to/test/labels
 ```
 
-## Before Publishing to GitHub
+## Citation
 
-Keep only source code, configs, lightweight figures, and documentation in the repository. Do not upload:
+If you find this repository useful for your research, please consider citing our work:
 
-- `runs/`
-- `__pycache__/`
-- `outputs/predictions/`
-- `checkpoints/`
-- `debug_batches/`
-- local datasets
-- model checkpoints unless they are intentionally released through GitHub Releases or another model hosting service
+```text
+@inproceedings{liu2026fpdsegdsa,
+  title     = {Temporal Phase-Difference Guided Spatiotemporal Learning for DSA Vessel Segmentation},
+  author    = {Liu, Kun and He, Ziyang and Zheng, Bin and Zhao, Wenyi and Zhu, Mengke and Xu, Weijin and Liu, Wentao and He, Zijun and Chen, Hanlin and Lu, Bofeng and Liang, Zhiyuan and Yang, Huihua},
+  booktitle = {Medical Image Computing and Computer-Assisted Intervention (MICCAI)},
+  year      = {2026},
+  note      = {Provisionally Accepted}
+}
+```
+
+The citation information will be updated after the final camera-ready version and publication details become available.
 
 ## Acknowledgements
 
 This project was developed with reference to the public [DIAS](https://github.com/lseventeen/DIAS) codebase and has been reorganized around the FPD-SegDSA training workflow, package layout, configuration defaults, and experiment outputs.
+
+The author would like to express sincere gratitude to [He Ziyang【BUPT】](https://github.com/hzyBupt) for his guidance, constructive comments, and support during the preparation of this project and manuscript. His valuable feedback on academic writing and paper revision greatly improved the clarity and presentation of this work.
+
+

@@ -39,8 +39,8 @@ debug_batches/
 checkpoints/
 
 # Local datasets
-data/
-datasets/
+/data/
+/datasets/
 
 # Generated visual/debug artifacts
 *.gif

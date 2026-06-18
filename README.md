@@ -1,4 +1,4 @@
-**“Temporal Phase-Difference Guided Spatiotemporal Learning for DSA Vessel Segmentation”**
+# “Temporal Phase-Difference Guided Spatiotemporal Learning for DSA Vessel Segmentation”
 
 **🎉 The paper associated with this project has been provisionally accepted by [MICCAI 2026](https://conferences.miccai.org/2026/en/default.asp) after the rebuttal process. We are grateful for the reviewers' constructive feedback and are currently preparing the camera-ready version.**
 

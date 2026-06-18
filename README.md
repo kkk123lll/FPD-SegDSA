@@ -22,7 +22,6 @@ PyTorch implementation for DSA sequence vessel segmentation. The current public 
 ├── tools/preprocess/               # optional preprocessing scripts
 ├── scripts/                        # experiment launch helpers
 ├── docs/                           # lightweight figures and PDFs
-├── notebooks/                      # exploratory notebooks
 └── environment.yml                 # conda environment export
 ```
 

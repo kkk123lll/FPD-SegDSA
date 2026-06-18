@@ -334,6 +334,7 @@ class Trainer:
         self.data_time = AverageMeter()
         self.total_loss = AverageMeter()
         self.auc = AverageMeter()
+        self.Pre = AverageMeter()
         self.DSC = AverageMeter()
         self.acc = AverageMeter()
         self.sen = AverageMeter()
@@ -344,6 +345,7 @@ class Trainer:
 
     def _update_metrics(self, DSC, acc, sen, spe, iou,auc, cldice):
         self.DSC.update(DSC)
+        self.Pre.update(Pre)
         self.acc.update(acc)
         self.sen.update(sen)
         self.spe.update(spe)
@@ -355,24 +357,26 @@ class Trainer:
 
         return {
             
-            "DSC": self.DSC.mean,
-            "Acc": self.acc.mean,
-            "Sen": self.sen.mean,
-            "Spe": self.spe.mean,
-            "IOU": self.iou.mean,
-            "AUC": self.auc.mean,
-            "cldice": self.cldice.mean,
+            "DSC_mean": self.DSC.mean,
+            "Pre_mean": self.Pre.mean,
+            "Acc_mean": self.acc.mean,
+            "Sen_mean": self.sen.mean,
+            "Spe_mean": self.spe.mean,
+            "IOU_mean": self.iou.mean,
+            "AUC_mean": self.auc.mean,
+            "cldice_mean": self.cldice.mean,
         }
     def _get_metrics_std(self):
 
         return {
             
-            "DSC": self.DSC.std,
-            "Acc": self.acc.std,
-            "Sen": self.sen.std,
-            "Spe": self.spe.std,
-            "IOU": self.iou.std,
-            "AUC": self.auc.std,
-            "cldice": self.cldice.std,
+            "DSC_std": self.DSC.std,
+            "Pre_std": self.Pre.std,
+            "Acc_std": self.acc.std,
+            "Sen_std": self.sen.std,
+            "Spe_std": self.spe.std,
+            "IOU_std": self.iou.std,
+            "AUC_std": self.auc.std,
+            "cldice_std": self.cldice.std,
         }
 

@@ -125,6 +125,8 @@ The citation information will be updated after the final camera-ready version an
 
 This project was developed with reference to the public [DIAS](https://github.com/lseventeen/DIAS) codebase and has been reorganized around the FPD-SegDSA training workflow, package layout, configuration defaults, and experiment outputs.
 
-The author would like to express sincere gratitude to [He Ziyang](https://github.com/hzyBupt) for his guidance, constructive comments, and support during the preparation of this project and manuscript. His valuable feedback on academic writing and paper revision greatly improved the clarity and presentation of this work.
+The main innovative design, algorithmic ideas, and experimental implementation of this work were independently completed by the author. For any questions regarding the technical details or implementation of this work, please contact the author directly.
+
+The author would also like to express sincere gratitude to [He Ziyang](https://github.com/hzyBupt) for his guidance, constructive comments, and support during the preparation of this manuscript. His valuable feedback on academic writing and paper revision greatly improved the clarity and presentation of this work.
 
 

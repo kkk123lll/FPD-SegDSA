@@ -1,6 +1,6 @@
-# “Temporal Phase-Difference Guided Spatiotemporal Learning for DSA Vessel Segmentation”
+# Temporal Phase-Difference Guided Spatiotemporal Learning for DSA Vessel Segmentation
 
-**🎉 The paper associated with this project has been provisionally accepted by [MICCAI 2026](https://conferences.miccai.org/2026/en/default.asp) after the rebuttal process. We are grateful for the reviewers' constructive feedback and are currently preparing the camera-ready version.**
+**🎉🎉🎉  The paper associated with this project has been provisionally accepted by [MICCAI 2026](https://conferences.miccai.org/2026/en/default.asp) after the rebuttal process. We are grateful for the reviewers' constructive feedback and are currently preparing the camera-ready version.**
 
 # FPD-SegDSA
 
@@ -127,6 +127,6 @@ This project was developed with reference to the public [DIAS](https://github.co
 
 The main innovative design, algorithmic ideas, and experimental implementation of this work were independently completed by the author. For any questions regarding the technical details or implementation of this work, please contact the author directly.
 
-The author would also like to express sincere gratitude to [He Ziyang](https://github.com/hzyBupt) for his guidance, constructive comments, and support during the preparation of this manuscript. His valuable feedback on academic writing and paper revision greatly improved the clarity and presentation of this work.
+The author would also like to express sincere gratitude to [He Ziyang](https://github.com/hzyBupt)，[Xu Weijin](https://github.com/xwjBupt) for their guidance, constructive comments, and support during the preparation of this manuscript. Their valuable feedback on academic writing and paper revision greatly improved the clarity and presentation of this work.
 
 

@@ -96,7 +96,7 @@ class Tester(Trainer):
             )
 
             pred = pres_img[0, 0, :H, :W]
-            pred_b = np.where(pred >= 0.5, 1, 0)
+            pred_b = np.where(pred >= 0.6, 1, 0)
 
             predict_list.append(pred)
             predict_b_list.append(pred_b)

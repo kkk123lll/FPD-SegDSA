@@ -94,6 +94,7 @@ def get_metrics(predict, target, run_clDice = False, threshold=0.6):
 
     return {
         "DSC": np.round(DSC, 4),
+        "Pre": np.round(pre, 4),
         "Acc": np.round(acc, 4),
         "Sen": np.round(sen, 4),
         "Spe": np.round(spe, 4),
